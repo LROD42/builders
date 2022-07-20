@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    
+    font-family: 'Montserrat', sans-serif;
+ 
+   
+}
+/* -- UNIVERSAL -- */
+
+/* -- HEADER -- */
+
+.cabecalho {
+    background-color: white;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.cabecalho .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+.cabecalho-logo {
+    flex-grow: 2;
+}
+
+.cabecalho-telefone {
+    margin-right: 10px;
+}
+
+.cabecalho p {
+    font-size: 0.6em;
+    color: gray;
+}
+
+.cabecalho h3 {
+    font-size: 0.7em;
+}
+
+.cabecalho-nav-lista {
+    margin: 25px 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cabecalho-nav .itens{
+    list-style-type: none;
+    display:flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffb600;
+    color: white;
+    height: 50px;
+    font-weight: bold;    
+}
+
+
+.cabecalho-nav .itens:first-child{
+    background-color: black;
+    color: white;
+}
+
+
+.cabecalho-nav .itens:last-child{
+    background-color: black;
+    color: white;
+}
+
+/* -- FIM HEADER -- */
+
+/* -- INICIO MAIN -- */
+.background {
+    width: 100%;
+    background: url(./icon/architect-10805892.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    
+}
+
+.principal{
+    display: flex;
+    align-items: center;
+    height: 600px;
+    width: 940px;
+    margin: 0 auto;
+    /* background-color: gray; */
+   
+    
+}
+
+.principal-container-texto p {
+    font-size: 0.8em;
+    font-weight: 500;
+    padding: 10px 0;
+    color: white;
+    line-height: 2em;
+    width: 80%;
+    
+}
+
+.principal-container-texto {
+  flex: 2 1 70%;
+  color: white;
+}
+
+.principal-container-texto h1{
+    font-size: 1.8em;
+}
+
+.principal-container-form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0, 0.7);
+    height: 500px;
+    
+}
+
+.principal-container-form h2{
+    color: #ffb600;
+    margin-top: 35px;
+    
+
+}
+
+.principal-container-form p{
+    color: white;
+    font-size: 0.7em;
+    margin:10px 15px;
+}
+
+.principal-container-form input {
+    width: 90%;
+    height: 50px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.principal-container-form textarea{
+    width: 90%;
+    height: 100px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: gray;
+}
+
+button{
+    background-color: #ffb600;
+    height:35px;
+    width:40%;
+    font-weight: 600;
+    
+}
